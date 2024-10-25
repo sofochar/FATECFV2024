@@ -1,0 +1,58 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #3aa855;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.introducao {
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    color: rgb(7, 6, 6);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.nossa-historia, .nossa-equipe {
+    padding: 40px;
+    text-align: center;
+}
+
+.membros-equipe {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.membro img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #3aa855;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
